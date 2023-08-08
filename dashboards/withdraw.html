@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../assets/css/styles.css">
+
+        <title>Withdraw</title>
+    </head>
+
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header">
+            <nav class="nav container">
+                <a href="dashboard.html#home"><i class='bx bx-left-arrow' style="font-size: 20px;"></i></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="deposit.html" class="nav__link" style="margin-left:20px">
+                                <i class='bx bx-plus nav__icon'></i>
+                                <span class="nav__name">Recharge</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#withdraw" class="nav__link active-link" style="margin-left:20px"> 
+                                <i class='bx bx-wallet nav__icon'></i>
+                                <span class="nav__name">Withdraw</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>           
+            <a href="dashboard.html#history"><i class='bx bx-file' style="padding-left: 5%; cursor: pointer;"></i></a> 
+            </nav>
+        </header>
+
+
+        <div style="padding: 20px;">
+
+<h3>Withdraw</h3><br>
+
+<div style="border: 1px solid #56b700; width: 100%; padding: 7px; border-radius: 7px; color: #56b700">USDT-TRC20 <i class='bx bx-down-arrow' style="font-size: 12px;"></i></div><br>
+
+<h4 style="padding-bottom: 5px;">Withdrawal amount</h4>
+<input type="name" placeholder="Withdrawal amount (min = 5 USD)" style="border: 1px solid #56b700; padding: 9px; border-radius: 7px; width: 75%;" disabled>
+<span style="color: white; background: #56b700; padding: 7px; border-radius: 6px;">MAX</span><br><br>
+
+<h4 style="padding-bottom: 5px;">Withdrawal address</h4>
+</h3><input type="name" placeholder="Please enter or long press to past address" style="border: 1px solid #56b700; padding: 9px;border-radius: 7px; width: 100%;" disabled><br>
+
+
+        <br><br>
+            <h4>Withdrawal instructions</h4><br>
+            <p>1. Minimum withdrawal limit 5 USD.</p><br>
+            <p>2. The above address only be used for recharging in the selected currency.</p><br>
+            <p>3. Recharging recuires confirmation from multiple nodes, please be patient.</p>
+        </div>
+<center>
+<div style="background-color: rgba(0,0,0,0.6); width: 180px; height: 100px; position: fixed; top: 40%; left: 27%; color: white; padding: 10px; border-radius: 10px;">
+<b>Unable to withdraw</b>
+Minimum amount 5 USD and you are still on VIP 0.
+
+</div>
+<button style="border: none; padding: 10px; width: 80%; border-radius: 10px; background: #e9e9e9; color: #9c9c9c;" disabled>Submit</button>
+</center>
+    </body>
+</html>

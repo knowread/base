@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../assets/css/styles.css">
+
+        <title>Bonus Task</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#home" class="nav__logo"><img src="../assets/img/kasp logo.png"></a>
+            </nav>
+        </header>
+
+<div style="padding: 20px;">
+<span style="background: #ff8e2a; font-size: 15px; position: fixed; color: white; padding: 5px; border-radius: 10px;"> 0.5 USDT</span>
+<center><h3>AH-64 Apache</h3></center> <br>
+<img src="../assets/img/AH-64D_Apache_Longbow.jpg"><br><br>
+<p>military aircraft, any type of aircraft that has been adapted for military use.
+Aircraft have been a fundamental part of military power since the mid-20th century.</p><br><p>Generally speaking, all military aircraft fall into one of the following categories: and unmanned aerial vehicles, which are remotely controlled or autonomously guided aircraft that carry sensors and even offensive weapons.</p>
+</div>
+
+                <a href="#home" class="nav__logo"><img src="../assets/img/kasp logo.png"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link" style="margin-left:20px">
+                                <div id="countdown"></div>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div> 
+
+    </body>
+
+     
+<script>
+var timeleft = 15;
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+    document.getElementById("countdown").innerHTML = "0.50";
+  } else {
+    document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
+  }
+  timeleft -= 1;
+}, 1000);
+</script>
+<script type="text/javascript">
+    setTimeout(function(){ alert("Congratulations! You earned 0.50 USD, Press ok and contiue..");window.location = 'dashboard.html#home'; }, 18000);
+</script>
+</html>

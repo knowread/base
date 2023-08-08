@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+		<link rel="icon" type="image/x-icon" href="../assets/img/tabicon.png">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <title>Unsaux</title>
+    </head>
+<style type="text/css">
+.logout-button{
+    border-radius: 7px; 
+    font-size: 17px; 
+    border: none; 
+    width: 80%; 
+    color: white; 
+    background: #ff373c; 
+    padding: 10px;
+}
+.logout-button:hover{
+  background: #ff6d70;
+}
+</style>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#home" class="nav__logo"><img src="../assets/img/kasp logo.png"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link" style="margin-left:20px">
+                                <i class='bx bx-home nav__icon'></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#recharge" class="nav__link" style="margin-left:20px"> 
+                                <i class='bx bx-book nav__icon'></i>
+                                <span class="nav__name">Task</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#grab" class="nav__link" style="margin-left:20px">
+                                <i class='bx bx-chart nav__icon'></i>
+                                <span class="nav__name">Upgrade</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#history" class="nav__link" style="margin-left:20px">
+                                <i class='bx bx-file nav__icon'></i>
+                                <span class="nav__name">History</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#account" class="nav__link" style="margin-left:20px">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">Account</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>            
+            </nav>
+        </header>
+
+        <main>
+            <!--=============== HOME ===============-->
+<section class="section section__height" id="home">
+    <div style="background: ##f1f1f1;">
+    <marquee direction="left" scrolldelay="200" loop="0">
+    <i class='bx bx-broadcast' style="color: orange;"></i> You are currently using VIP 0, Recharge to get more tasks, Simply start with 1 USD...
+
+    </marquee>
+    </div><br>
+
+        <div>
+
+            <div style="display: flex; padding: 15px; background: #f1f1f1;">
+                <div>
+                    <span style="font-size: 13px;">USER ID:</span><br>
+                    <span style="font-size: 20px"><b>DM5F283FKS</b></span>
+                </div>
+                <div style="padding: 15px; display: flex; column-gap: 40px; margin-left: 50px; margin-top: -15px;">
+                    <a href="deposit.html"><div style="width: 50px; font-size: 12px;"><img src="../assets/img/recharge.png"><br>Recharge</div></a>
+                    <a href="withdraw.html"><div style="width: 50px; font-size: 12px;"><img src="../assets/img/withdraw.png"><br>Withdraw</div></a>
+                </div>
+            </div><br>
+             <center>   
+
+                <div style="background: #56b700; color: white; padding: 15px; border-top-right-radius: 20px; 
+                    border-top-left-radius: 20px; width: 90%;
+                    box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);">
+                    Balance<br><span style="font-size: 30px;"><b>$ 0.50</b></span>
+                </div>
+                <div style="background: white; border: 1px solid #56b700; color: black; padding: 15px; 
+                    border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; width: 90%;
+                    box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);">
+                    <div style="display: flex; column-gap: 45%; font-weight: 600; padding-top: 8px; font-size: 15px; margin-top: -10px; ">           
+                        <div>Tasks: 0</div>
+                        <div>Completed: 1</div>
+                    </div>
+                </div>
+            </center>
+
+            <div style="padding: 15px; background: white;">
+            
+                <div style="display: flex; column-gap: 20px; padding-bottom: 10px;">
+                    <div><img src="../assets/img/partner1.jpg"></div>
+                    <div><img src="../assets/img/partner2.jpg"></div>
+                    <div><img src="../assets/img/partner3.jpg"></div>
+                    <div><img src="../assets/img/partner4.jpg"></div>
+                </div>
+
+            <div style="background: #f1f1f1; border-radius: 10px; padding: 15px; border: 1px solid #cfcfcf;"> 
+                <h3>VIP 0</h3>
+                <p>Task: 1 <i class='bx bx-check' style="color: #00a75e; font-weight: 600;"></i></p>
+                <p>Reward: 0.5 <i class='bx bx-check' style="color: #00a75e; font-weight: 600;"></i></p>
+                <p>Daily income: n/a</p>
+            </div>  
+
+            </div> 
+
+
+
+</section>
+
+            <!--=============== ABOUT ===============-->
+            <section class="container section section__height" id="recharge">
+            <h2 class="section__title">Task</h2>
+            <center><p style="color: #a4a4a4; font-size: 15px;">There are no tasks available. Please upgrade and get more tasks</p><br><a href="#grab"><p style="color: #00a75e;">Click here to upgrade</p></a></center><br>
+
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="container section section__height" id="grab">
+                <h2 class="section__title">Upgrade</h2>
+            <div style="padding: 15px; border-radius: 15px; box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15); background-image: linear-gradient(to bottom right, white, #caffba);">
+                <div>
+                    <h3><i class='bx bx-crown'></i> VIP <span style="color: green; padding-left: 10px;">$1</span></h3></div>
+                <div style="padding-top: 7px;">
+                    <p>Tasks / day: 8 </p>
+                    <p>Reward / task: 0.6 - 0.8 USD</p>
+                    <p>Daily income: 2.4 - 3.2 USD</p>
+                </div><br>
+                <a href="deposit.html"><button style="background: #4ad413; border: none; color: white; padding: 10px; border-radius: 10px;">upgrade now</button></a>
+            </div><br>
+            <div style="padding: 15px; border-radius: 15px; box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15); background-image: linear-gradient(to bottom right, white, #badfff);">
+                <div>
+                    <h3><i class='bx bx-crown'></i> VIP <span style="color: green; padding-left: 10px;">$5</span></h3></div>
+                <div style="padding-top: 7px;">
+                    <p>Tasks / day: 12 </p>
+                    <p>Reward / task: 1.5 - 1.8 USD</p>
+                    <p>Daily income: 9 - 10.8 USD</p>
+                </div><br>
+                <a href="deposit.html"><button style="background: #4ad413; border: none; color: white; padding: 10px; border-radius: 10px;">upgrade now</button></a>
+            </div>
+            </section>
+
+            <!--=============== PORTFOLIO ===============-->
+            <section class="container section section__height" id="history">
+                <h2 class="section__title">History</h2>
+                <center><p style="color: #a4a4a4; font-size: 15px;">No data</p><br><i class="bx bx-file" style="font-size: 70px; color: #dcdcdc;"></i></center>
+            </section>
+
+            <!--=============== Account ===============-->
+            <section class="container section section__height" id="account">
+        <center>   
+                <div style="background-image: linear-gradient(to bottom right, #ededed, #c9c9c9); padding: 15px; width: 100%; box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15); border-radius: 10px;">
+                    <div style="display: flex; column-gap: 7%; font-weight: 600; padding-top: 8px; font-size: 15px; margin-top: -10px; ">           
+                        <div><img src="../assets/img/profile.png" width="100px" style="border-radius: 50%; border: 2px solid #c9c9c9;"></div>
+                        <div style="padding: 10px; color: gray; font-size: 17px;">UID: DM5F283FKS<br><br>
+                        <span style="border-radius: 10px; background: gray; padding: 7px; color: white; font-size: 15px;">VIP 0</span>
+                        <a href="#grab"><span style="padding-left: 20px; color: green; font-size: 15px;"><u>Upgrade</u></span></div></a>
+                    </div>
+                </div><br>
+
+                <div style="color: black; padding: 15px; border-top-left-radius: 15px; border-top-right-radius: 15px; background: white; border: 1px solid #c9c9c9;">
+                    <div style="display: flex; column-gap: 19%; ">           
+                        <div><b>My Fund</b><br> 0.00</div>
+                        <div><b>Bonus</b> <br> 0.50</div>
+                        <div><b>Referral (0)</b> <br> 0.00</div>
+                    </div>
+                </div>
+        <div style="background-image: linear-gradient(to right, #a5ff9e, #5df072); color: black; padding: 15px; width: 100%; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
+            <div style="display: flex; column-gap: 15%; padding-top: 8px; margin-top: -10px; font-weight: 600; text-decoration: none; color: black">          
+                <a href="deposit.html"><div style="color: black;"><li class="bx bx-plus" style="font-size: 25px;"></li><br><span style="font-size: 10px;">recharge</span></div></a>
+                <a href="withdraw.html"><div style="color: black;"><li class="bx bx-wallet" style="font-size: 25px;"></li><br><span style="font-size: 10px;">withdraw</span></div></a>
+                <a href="#invite"><div style="color: black;"><li class="bx bx-group" style="font-size: 25px;"></li><br><span style="font-size: 10px;">Invite</span></div></a>
+                <a href="https://t.me/unauxsupport" target="_blank"><div style="color: black;"><li class="bx bx-comment" style="font-size: 25px;"></li><br><span style="font-size: 10px;">Support</span></div></a>
+            </div>
+        </div><br>
+<br>
+<div>Any problem contact customer support on <a href="https://t.me/unauxsupport" style="color: #0096ff">telegram.</a></div><br>
+<div>version 1.0.2</div>
+<br>
+        <a href="../index.html"><button class="logout-button">Logout</button></a>
+    </center>
+
+            </section>
+
+            <section class="container section section__height" id="invite">
+                <center>
+                <h2>Invite</h2>
+<p style="color: #a4a4a4; font-size: 15px;">Invite your friend and earn 10%<br> comission from there earnings</p><br>
+<h3 style="color: #a4a4a4; font-size: 15px;">Your referral link</h3><br>
+<input type="name" value="574832" id="myInput" disabled style="border: 1px solid #56b700; padding: 9px;border-radius: 7px; width: 80%;" id="myInput" >
+<button onclick="myFunction()" style="border: none; padding: 10px; background: #56b700; border-radius: 7px; color: white;"><i class='bx bx-copy'></i></button>
+<img src="../assets/img/invite.png">
+</center>
+</section>
+
+        </main>
+
+
+<!--=============== MAIN JS ===============-->
+<script src="../assets/js/main.js"></script>
+<script type="text/javascript">
+    function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("URL copied: " + copyText.value);
+}
+</script><script type="text/javascript">
+var lastScrollTop = 0;
+var isMoving = false;
+
+$(window).scroll(function () {
+    var currentScroll = $(window).scrollTop();
+
+    //scrolling down?
+    if (currentScroll > lastScrollTop && !isMoving) {
+        var value = '#link2';
+    }
+    //scrolling up?
+    else if (!isMoving) {
+        var value = '#link1';
+    }
+
+    lastScrollTop = currentScroll;
+
+    //animation
+    if (value && !isMoving) { //if theres any #
+        isMoving = true;
+
+        dest = $(value).offset();
+
+        $('html, body').animate({
+            scrollTop: dtop
+        }, 1200, function () {
+
+            //setting the flag to avoid checking the scrolling when performing the animation
+            isMoving = false;
+        });
+    }
+});</script>
+    </body>
+</html>

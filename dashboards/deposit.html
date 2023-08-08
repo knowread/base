@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../assets/css/styles.css">
+
+        <title>Recharge</title>
+    </head>
+
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header">
+            <nav class="nav container">
+                <a href="dashboard.html#home"><i class='bx bx-left-arrow' style="font-size: 20px;"></i></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#deposit" class="nav__link active-link" style="margin-left:20px">
+                                <i class='bx bx-plus nav__icon'></i>
+                                <span class="nav__name">Recharge</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="withdraw.html" class="nav__link" style="margin-left:20px"> 
+                                <i class='bx bx-wallet nav__icon'></i>
+                                <span class="nav__name">Withdraw</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>     
+            <a href="dashboard.html#history"><i class='bx bx-file' style="padding-left: 5%; cursor: pointer;"></i></a>       
+            </nav>
+        </header>
+
+
+        <div style="padding: 20px;">
+        <center>
+        <h3>Recharge</h3><br>
+        <div style="border: 1px solid #56b700; width: 40%; padding: 7px; border-radius: 10px;">USDT-TRC20</div><br>
+
+<img src="../assets/img/QR.jpg" width="170px" style="border: 1px solid #56b700; padding: 5px; border-radius: 10px;"><br><br>
+<input type="name" value="TVpBp1fpxfMv5a1vE42KcupPv95BAQ5Yvw" id="myInput" disabled style="border: 1px solid #56b700; padding: 9px;border-radius: 7px; width: 80%;">
+<button onclick="myFunction()" style="border: none; padding: 10px; background: #56b700; border-radius: 7px; color: white;"><i class='bx bx-copy'></i></button>
+
+        </center><br>
+            <h4>Recharge instructions</h4><br>
+            <p>1. The above address only for you for recharging in the selected currency.</p><br>
+            <p>2. Recharging recuires confirmation from multiple nodes, please be patient.</p>
+        </div>
+
+    </body>
+<script type="text/javascript">
+    function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("Address copied: " + copyText.value);
+}
+</script>
+</html>
